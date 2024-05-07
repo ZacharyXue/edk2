@@ -724,6 +724,9 @@
   # PEI Phase modules
   #
   OvmfPkg/MyPEIMDriver/MyPEIDriver.inf
+  OvmfPkg/MyPpiLocate/MyPpiLocate.inf
+  OvmfPkg/MyPpiInstall/MyPpiInstall.inf
+
   MdeModulePkg/Core/Pei/PeiMain.inf
   MdeModulePkg/Universal/PCD/Pei/Pcd.inf  {
     <LibraryClasses>
