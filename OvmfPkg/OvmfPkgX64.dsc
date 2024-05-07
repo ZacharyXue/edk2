@@ -708,6 +708,7 @@
 ################################################################################
 [Components]
   OvmfPkg/ResetVector/ResetVector.inf
+  OvmfPkg/MyHelloWorld/HelloWorld.inf
 
   #
   # SEC Phase modules
@@ -722,6 +723,7 @@
   #
   # PEI Phase modules
   #
+  OvmfPkg/MyPEIMDriver/MyPEIDriver.inf
   MdeModulePkg/Core/Pei/PeiMain.inf
   MdeModulePkg/Universal/PCD/Pei/Pcd.inf  {
     <LibraryClasses>
